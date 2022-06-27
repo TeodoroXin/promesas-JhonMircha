@@ -7,6 +7,7 @@ Convertí todas las funciones secundarias a "Expresiones de función" las cuales
 se entiende implicitamente que las "Function Expressions" no necesitan la palabra "return" cuando contiene un solo resultado su interior;
 seguí el mismo método de la primera que hizo Jhonatan.
 ***/
+// f: https://www.youtube.com/watch?v=3lPyqtRK1GA&list=PLvq-jIkSeTUY3gY-ptuqkNEXZHsNwlkND&index=29
 const archivoExiste = new Promise( (resolve, reject) => {
   console.log('revisando archivo')
     fs.access(file, fs.F_OK, function (err) {
