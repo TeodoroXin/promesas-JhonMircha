@@ -4,7 +4,7 @@ let fs = require('fs'),
     copia = './assets/nombres-promises-es6.txt';
 /***
 Convertí todas las funciones secundarias a "Expresiones de función" las cuales devolvían cada una sus respectivas promesas,
-se entiende implicitamente que las "Function Expressions" no necesitan la palabra "return" para lo que contiene su interior;
+se entiende implicitamente que las "Function Expressions" no necesitan la palabra "return" cuando contiene un solo resultado su interior;
 seguí el mismo método de la primera que hizo Jhonatan.
 ***/
 const archivoExiste = new Promise( (resolve, reject) => {
